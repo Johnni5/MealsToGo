@@ -1,7 +1,11 @@
 import React from 'react';
-import { Text } from 'react-native';
+import { Text, View } from 'react-native';
+import { RestaurantCard } from './restaurant.card';
 
 export const RestaurantInfo = ({ restaurant = {} }) => {
+  <View>
+    <RestaurantCard />
+  </View>;
   const {
     name = 'Some Restaurant',
     icon = [<icon></icon>],
