@@ -1,7 +1,7 @@
-import React from "react";
-import styled from "styled-components/native";
-import { Text, StyleSheet } from "react-native";
-import { Card } from "react-native-paper";
+import React from 'react';
+import styled from 'styled-components/native';
+import { Text, StyleSheet } from 'react-native';
+import { Card } from 'react-native-paper';
 
 const RestaurantCard = styled(Card)`
   background-color: white;
@@ -19,12 +19,12 @@ const Title = styled(Text)`
 
 export const RestaurantInfoCard = ({ restaurant = {} }) => {
   const {
-    name = "Some Restaurant",
+    name = 'Some Restaurant',
     icon = [<icon></icon>],
     photos = [
-      "https://foodiesfeed.com/wp-content/uploads/2019/06/top-view-for-box-of-2-burgers-home-made-600x899.jpg",
+      'https://foodiesfeed.com/wp-content/uploads/2019/06/top-view-for-box-of-2-burgers-home-made-600x899.jpg',
     ],
-    address = "100 some random street",
+    address = '100 some random street',
     isOpenNow = true,
     rating = 4,
     isClosedTemporarily,
